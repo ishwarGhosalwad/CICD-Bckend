@@ -1,0 +1,21 @@
+# Ignore environment variables / credentials
+.env
+*.pod
+
+# Ignore dependency directories
+node_modules/
+/venv/
+.venv/
+
+# Ignore build outputs and log files
+dist/
+build/
+*.log
+
+# Ignore OS-specific system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configuration folders
+.vscode/
+.idea/
